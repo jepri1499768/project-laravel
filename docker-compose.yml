@@ -33,10 +33,10 @@ services:
     volumes: 
       - mysql_data:/var/lib/mysql
     environment:
-      MYSQL_DATABASE: homestead
-      MYSQL_USER: homestead
-      MYSQL_PASSWORD: secret
-      MYSQL_ROOT_PASSWORD: secret
+      MYSQL_DATABASE: dbpengolahanlogistik
+      MYSQL_USER: laravel
+      MYSQL_PASSWORD: I3NI35Z5G22Q
+      MYSQL_ROOT_PASSWORD: I3NI35Z5G22Q
     networks:
       - laravel
 
